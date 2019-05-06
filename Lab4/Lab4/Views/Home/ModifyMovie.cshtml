@@ -1,0 +1,35 @@
+﻿@Model Lab4.Models.Movie
+@{
+    Layout = "_Layout";
+}
+
+
+<title>Modify Movie</title>
+<form asp-controller="Home" asp-action="ModifyMovie">
+    <table>
+        <tr>
+            <td>
+                <input type="hidden" value="@Model.ID" name="ID" />
+                @*//  Movie Title: <input asp-for="Model" name="ID"/>*@
+            </td>
+            <td>
+                <input type="text" id="FirstName" name="FirstName" value="" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Last Name:
+            </td>
+            <td>
+                <input type="text" id="LastName" name="LastName" value="" />
+            </td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td>
+                <button type="submit" value="Modify Car">Mod Car</button>
+            </td>
+        </tr>
+    </table>
+</form>

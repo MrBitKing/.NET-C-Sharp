@@ -1,0 +1,52 @@
+﻿
+@model Ass2.ViewModels.BlogPostViewModel
+@using Microsoft.AspNetCore.Http
+@{
+    ViewData["Title"] = "Home Page";
+    Layout = "_Layout";
+
+}
+
+<div class="container">
+    @if (Model == null || Model.BlogPosts == null || Model.BlogPosts.Count() == 0)
+    {
+        <h4>No post to display</h4>
+    }
+    else
+    {
+        <br />
+        @foreach (var item in Model.BlogPosts)
+        {
+            <div style="width: auto; display: block; border: 1px solid DarkGrey; background-color: LightGrey; margin: 10px 0px 10px 0px; padding: 0px 20px 5px 20px; border-radius: 10px;">
+                <div class="container">
+                    <div class="media border p-8">
+                        <div class="media-body">
+                            <a asp-controller="Home" asp-action="DisplayFullBlogPost" asp-route-id="@item.BlogPostId">Title @item.Title</a>
+                            @if (item.ShortDescription.Length > 100)
+                            {
+                                <p>@item.ShortDescription.Substring(0, 100) ...</p>
+                            }
+                            else
+                            {
+                                <p>@item.ShortDescription</p>
+                            }
+                            <br />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            @if (Context.Session.GetInt32("RoleId") == 2 && Context.Session.GetString("UserId") != null)
+            {
+                <a class="btn btn-xs btn-primary" asp-controller="Home" asp-action="EditBlogPost" asp-route-id="@item.BlogPostId">Edit Post</a>
+                <a class="btn btn-xs btn-danger" asp-controller="Home" asp-action="DeleteBlogPost" asp-route-id="@item.BlogPostId" onclick="return confirm('Are you sure to delete?');" asp-route-id="@item.BlogPostId">Delete Post</a>
+            }
+        }
+
+        @if (Context.Session.GetInt32("RoleId") == 2 && Context.Session.GetString("UserId") != null){
+            <div class="text-right">
+                <a class="btn btn-xs btn-primary" asp-controller="Home" asp-action="AddBlogPost">Add BlogPost</a>
+            </div>
+        }
+    }
+</div>

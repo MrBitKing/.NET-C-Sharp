@@ -1,0 +1,16 @@
+﻿<Properties StartupConfiguration="{5EF43C5D-1CB2-4C46-A200-26488D68BCB3}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Lab6/Views/__ViewImports.cshtml">
+    <Files>
+      <File FileName="Lab6/App_Start/RouteConfig.cs" Line="14" Column="24" />
+      <File FileName="Lab6/Views/__ViewImports.cshtml" Line="1" Column="3" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Lab6 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Lab6.Tests FirstBuild="True" />
+</Properties>

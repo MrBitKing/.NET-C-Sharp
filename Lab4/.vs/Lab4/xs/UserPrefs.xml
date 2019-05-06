@@ -1,0 +1,18 @@
+﻿<Properties StartupConfiguration="{0147CE37-5BE3-434B-ABA4-F1DD80C6636B}|Default">
+  <MonoDevelop.Ide.ItemProperties.Lab4 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Lab4/Controllers/HomeController.cs">
+    <Files>
+      <File FileName="Lab4/Views/Shared/_Layout.cshtml" Line="26" Column="3" />
+      <File FileName="Lab4/Views/Home/Index.cshtml" Line="4" Column="2" />
+      <File FileName="Lab4/Models/Movie.cs" Line="1" Column="1" />
+      <File FileName="Lab4/Models/MovieContext.cs" Line="1" Column="1" />
+      <File FileName="Lab4/Controllers/HomeController.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

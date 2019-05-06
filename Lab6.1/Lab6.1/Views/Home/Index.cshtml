@@ -1,0 +1,64 @@
+﻿
+@model IEnumerable<Lab6.Models.Tweet>
+@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Contact";
+    Layout = "_Layout";
+}
+<div class="jumbotron text-center">
+    <h1>CST8359 Tweeter</h1>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12 col-sm-12">
+            <h2>Post a comment!</h2>
+            <form asp-controller="Home" asp-action="PostTweet">
+                <div class="form-group">
+                    <fieldset>
+                        <div class="form-group">
+                            <label>Username</label>
+                            <input type="text" name="username" class="form-control" />
+                        </div>
+                        <div class="form-group">
+                            <label>Content</label>
+                            <textarea name="Content" class="form-control" data-length="5000"> </textarea>
+
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" value="Submit Tweet" class="btn btn-primary" />
+                        </div>
+                    </fieldset>
+                </div>
+                <input name="__RequestVerificationToken" type="hidden" value="CfDJ8A2pNhAvan5Mg3RDFG2jlOA7ObJ3NqwGHM3QooZKHQpzW_R0MJxzB_5kEXHmyw9831a0SW3k5JOkYBlLmO3-UZA9vHN830Uzo4SBy-CNWmAMaf3M4TaPk7pCJMR4sFUydjdd0Tzv8WTN7OGMoEYE63k" />
+            </form>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12 col-sm-3">
+            <h3>Tweets</h3>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12 col-sm-3">
+            @if (Model == null || Model.Count() == 0)
+            {
+                <p>There is no post in here.</p>
+            }
+            else
+            {
+                <ul class="list-group">
+                    @foreach (var item in Model)
+                    {
+                        <li class="list-group-item">
+                            @item.Content<br /><br />
+                            By: @item.Username
+                            <span class="badge">@item.TweetId</span>
+                        </li>
+                    }
+                </ul>
+            }
+        </div>
+    </div>
+</div>

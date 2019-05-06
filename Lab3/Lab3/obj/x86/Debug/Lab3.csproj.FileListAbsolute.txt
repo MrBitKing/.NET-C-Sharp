@@ -1,0 +1,6 @@
+/Users/TheKing/Projects/Lab3/Lab3/bin/Debug/Lab3.exe
+/Users/TheKing/Projects/Lab3/Lab3/bin/Debug/Lab3.pdb
+/Users/TheKing/Projects/Lab3/Lab3/obj/x86/Debug/Lab3.csprojAssemblyReference.cache
+/Users/TheKing/Projects/Lab3/Lab3/obj/x86/Debug/Lab3.csproj.CoreCompileInputs.cache
+/Users/TheKing/Projects/Lab3/Lab3/obj/x86/Debug/Lab3.exe
+/Users/TheKing/Projects/Lab3/Lab3/obj/x86/Debug/Lab3.pdb

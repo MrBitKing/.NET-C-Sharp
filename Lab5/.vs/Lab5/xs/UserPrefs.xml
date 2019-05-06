@@ -1,0 +1,56 @@
+﻿<Properties StartupConfiguration="{180E7390-DDA6-49AA-BDA1-6E4F55787FDD}|Default">
+  <MonoDevelop.Ide.ItemProperties.Lab5 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Lab5/Views/Home/Index.cshtml">
+    <Files>
+      <File FileName="Lab5/Views/Shared/_Layout.cshtml" Line="56" Column="9" />
+      <File FileName="Lab5/Startup.cs" Line="30" Column="2" />
+      <File FileName="Lab5/Views/_ViewImports.cshtml" Line="1" Column="1" />
+      <File FileName="Lab5/Controllers/HomeController.cs" Line="29" Column="14" />
+      <File FileName="Lab5/Views/Home/About.cshtml" Line="4" Column="2" />
+      <File FileName="Lab5/Views/Home/Contact.cshtml" Line="22" Column="9" />
+      <File FileName="Lab5/Views/Home/Index.cshtml" Line="7" Column="29" />
+      <File FileName="Lab5/Views/Home/Privacy.cshtml" Line="1" Column="1" />
+      <File FileName="Lab5/Views/_ViewStart.cshtml" Line="1" Column="1" />
+      <File FileName="Lab5/Models/_PhotoDataContext.cs" Line="7" Column="15" />
+      <File FileName="Lab5/Models/Photo.cs" Line="6" Column="15" />
+      <File FileName="Lab5/wwwroot/MyHomePage.html" Line="17" Column="29" />
+      <File FileName="Lab5/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map" Line="1" Column="389288" />
+      <File FileName="Lab5/wwwroot/lib/bootstrap/dist/css/bootstrap.css" Line="1" Column="1" />
+      <File FileName="Lab5/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css" Line="1" Column="1" />
+      <File FileName="Lab5/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map" Line="1" Column="1" />
+      <File FileName="Lab5/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.css" Line="1" Column="1" />
+      <File FileName="Lab5/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.css.map" Line="1" Column="1" />
+      <File FileName="Lab5/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.min.css" Line="1" Column="1" />
+      <File FileName="Lab5/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.min.css.map" Line="1" Column="1" />
+      <File FileName="Lab5/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.svg" Line="1" Column="1" />
+      <File FileName="Lab5/wwwroot/js/JavaScript.ts" Line="1" Column="1" />
+      <File FileName="Lab5/wwwroot/js/JavaScript.js" Line="3" Column="2" />
+      <File FileName="Lab5/Program.cs" Line="9" Column="1" />
+      <File FileName="Lab5/Models/ErrorViewModel.cs" Line="1" Column="1" />
+      <File FileName="Lab5/Views/Shared/Error.cshtml" Line="1" Column="1" />
+      <File FileName="Lab5/wwwroot/images/banner1.svg" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Lab5" expanded="True">
+            <Node name="Lab5" expanded="True">
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True">
+                  <Node name="Index.cshtml" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

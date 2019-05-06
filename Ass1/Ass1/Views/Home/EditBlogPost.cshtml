@@ -1,0 +1,34 @@
+﻿@using Microsoft.AspNetCore.Http
+@model Ass1.Models.BlogPost
+
+@{
+    Layout = "_Layout";
+}
+
+<div class="container">
+    <h1>Edit BlogPost</h1>
+
+    <form asp-controller="Home" asp-action="EditBlogPost" method="post">
+        <input type="hidden" value="@Model.BlogPostId" name="BlogPostId" />
+
+        <div class="form-group">
+            <fieldset>
+
+                <div class="form-group">
+                    <legand>
+                        Title
+                    </legand>
+                    <input type="text" name="Title" asp-for="Title" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <label>Content</label>
+                    <textarea name="Content" asp-for="Content" class="form-control"></textarea>
+                </div>
+
+            </fieldset>
+        </div>
+        <button type="submit" class="btn btn-success">Edit Post</button>
+
+    </form>
+
+    </div>

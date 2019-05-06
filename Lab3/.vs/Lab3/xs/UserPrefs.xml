@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{5666999F-73E6-4782-AC46-DBA14283E8C7}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Lab3/appsettings.json">
+    <Files>
+      <File FileName="Lab3/Startup.cs" Line="1" Column="1" />
+      <File FileName="Lab3/Pages/Contact.cshtml" Line="1" Column="1" />
+      <File FileName="Lab3/Pages/About.cshtml.cs" Line="1" Column="1" />
+      <File FileName="Lab3/Pages/About.cshtml" Line="1" Column="1" />
+      <File FileName="Lab3/Pages/Error.cshtml" Line="1" Column="1" />
+      <File FileName="Lab3/Pages/Error.cshtml.cs" Line="1" Column="1" />
+      <File FileName="Lab3/Pages/Index.cshtml" Line="1" Column="1" />
+      <File FileName="Lab3/Pages/Privacy.cshtml" Line="1" Column="1" />
+      <File FileName="Lab3/Pages/Index.cshtml.cs" Line="1" Column="1" />
+      <File FileName="Lab3/Program.cs" Line="1" Column="1" />
+      <File FileName="Lab3/Web.config" Line="1" Column="1" />
+      <File FileName="Lab3/Global.asax.cs" Line="1" Column="1" />
+      <File FileName="Lab3/Global.asax" Line="1" Column="1" />
+      <File FileName="Lab3/appsettings.Development.json" Line="1" Column="1" />
+      <File FileName="Lab3/appsettings.json" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Lab3 FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -1,0 +1,38 @@
+﻿@model Lab4.Models.Movie
+@{
+    Layout = "_Layout";
+}
+
+    <title>Edit Movie</title>
+
+    <h2>Movies Database</h2>
+
+    <hr />
+    <h1>Edit Movie</h1>
+    <form asp-controller="Home" asp-action="ModifyMovie">
+        <input type="hidden" value="@Model.ID" name="ID" />
+        <table>
+            <tr>
+                <td>Title</td>
+                <td><input type="text" name="title" asp-for="Title" /></td>
+            </tr>
+            <tr>
+                <td>SubTitle</td>
+                <td><input type="text" name="subTitle" asp-for="SubTitle" /></td>
+            </tr>
+            <tr>
+                <td>Description</td>
+                <td><input type="text" name="description" asp-for="Description" /></td>
+            </tr>
+            <tr>
+                <td>Year</td>
+                <td><input type="date" name="year" asp-for="Year" /></td>
+            </tr>
+            <tr>
+                <td>Rating</td>
+                <td><input type="number" name="rating" asp-for="Rating" /></td>
+            </tr>
+        </table>
+        <input type="submit" value="Edit Movie" />
+    </form>
+    <hr />

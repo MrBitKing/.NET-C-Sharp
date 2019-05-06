@@ -1,0 +1,44 @@
+﻿@using Microsoft.AspNetCore.Http
+@model Ass2.Models.BlogPost
+@{
+    Layout = "_Layout";
+}
+<div class="container">
+    <h1>Add BlogPost</h1>
+    <hr />
+    <form asp-controller="Home" asp-action="AddBlogPost" method="post" />
+        <div class="form-group">
+            <input type="hidden" name="BlogPostId" asp-for="BlogPostId" class="form-control" required/>
+            <fieldset>
+                <div class="form-group">
+                    <label>Title</label>
+                    <input type="text" name="Title" asp-for="Title" class="form-control" required/>
+                </div>
+
+                <div class="form-group">
+                    <label for="text">Short Description: </label>
+                    <input class="form-control" asp-for="ShortDescription" type="text" name="ShortDescription" data-length="5000" nameplaceholder="Short Description" required/>
+                </div>
+
+                <div class="form-group">
+                    <label>Content</label>
+                    <textarea name="Content" asp-for="Content" class="form-control" data-length="5000" required> </textarea>
+                </div>
+
+                <div class="form-group col-sm-8">
+                    <label for="checkbox">Is Available: </label>
+                    <input asp-for="IsAvailable" typeof="checkbox" required/>
+                </div>
+            </fieldset>
+        </div>
+        <button type="submit" class="btn btn-primary">Add Post</button>
+        <br /><br />
+
+</div>
+<h3>Add Image</h3>
+<form asp-controller="Home" asp-action="UploadImage" enctype="multipart/form-data">
+    <br />
+    <input type="file" name="files" />
+    <br />
+    <button class="btn btn-large btn-success" name="upload">Add Picture</button>
+</form>

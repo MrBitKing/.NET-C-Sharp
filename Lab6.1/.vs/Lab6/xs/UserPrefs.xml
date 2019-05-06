@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{A466431B-62BE-4976-9DBB-2B52F2DDFC23}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Lab6.1/Lab6.csproj">
+    <Files>
+      <File FileName="Lab6.1/Startup.cs" Line="50" Column="1" />
+      <File FileName="Lab6.1/Views/_ViewImports.cshtml" Line="1" Column="12" />
+      <File FileName="Lab6.1/Controllers/HomeController.cs" Line="43" Column="88" />
+      <File FileName="Lab6.1/Models/Tweet.cs" Line="7" Column="2" />
+      <File FileName="Lab6.1/Models/ErrorViewModel.cs" Line="3" Column="15" />
+      <File FileName="Lab6.1/Program.cs" Line="1" Column="1" />
+      <File FileName="Lab6.1/Views/_ViewStart.cshtml" Line="1" Column="1" />
+      <File FileName="Lab6.1/Views/Home/About.cshtml" Line="9" Column="1" />
+      <File FileName="Lab6.1/Views/Home/Contact.cshtml" Line="8" Column="10" />
+      <File FileName="Lab6.1/Views/Home/Privacy.cshtml" Line="3" Column="1" />
+      <File FileName="Lab6.1/Views/Shared/_Layout.cshtml" Line="14" Column="1" />
+      <File FileName="../Lab2/Lab2/Program.cs" Line="8" Column="10" />
+      <File FileName="Lab6.1/Views/Shared/Error.cshtml" Line="1" Column="1" />
+      <File FileName="Lab6.1/Views/Shared/_CookieConsentPartial.cshtml" Line="1" Column="1" />
+      <File FileName="Lab6.1/Lab6.csproj" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Lab6 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

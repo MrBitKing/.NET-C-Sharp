@@ -1,0 +1,43 @@
+﻿@using Microsoft.AspNetCore.Http
+@model Ass2.Models.BlogPost
+@{
+    Layout = "_Layout";
+}
+<div class="container">
+    <h1>Edit BlogPost</h1>
+    <form asp-controller="Home" asp-action="EditBlogPost" method="post">
+        <input type="hidden" value="@Model.BlogPostId" asp-for="BlogPostId" name="BlogPostId" required/>
+        <div class="form-group col-sm-8">
+            <fieldset>
+                <legand> Title </legand>
+
+                <input type="text" name="Title" asp-for="Title" class="form-control" required/>
+
+                <label for="date">Posted: </label>
+                <input type="date" class="form-control" asp-for="Posted" typeof="date" required/>
+
+                <label>ShortDescription</label>
+                <textarea name="ShortDescription" asp-for="ShortDescription" class="form-control" required></textarea>
+
+                <label>Content</label>
+                <textarea name="Content" asp-for="Content" class="form-control" required></textarea>
+
+
+                <label for="checkbox">Is Available: </label>
+                <input asp-for="IsAvailable" typeof="checkbox" />
+            </fieldset>
+            <button type="submit" class="btn btn-success">Edit Post</button>
+        </div>
+
+    </form>
+    <br /><br />
+
+    </div>
+    <h3>Add Image</h3>
+    <form asp-controller="Home" asp-action="UploadImage" enctype="multipart/form-data">
+        <br />
+        <input type="file" name="files" />
+        <br />
+        <button class="btn btn-large btn-success" name="upload">Add Picture</button>
+    </form>
+

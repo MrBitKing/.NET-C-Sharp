@@ -1,0 +1,3 @@
+/Users/TheKing/Projects/Lab1/Lab1/bin/Release/Lab1.exe
+/Users/TheKing/Projects/Lab1/Lab1/obj/x86/Release/Lab1.csproj.CoreCompileInputs.cache
+/Users/TheKing/Projects/Lab1/Lab1/obj/x86/Release/Lab1.exe

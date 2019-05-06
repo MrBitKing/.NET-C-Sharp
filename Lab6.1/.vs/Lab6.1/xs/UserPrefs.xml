@@ -1,0 +1,18 @@
+﻿<Properties StartupConfiguration="{A466431B-62BE-4976-9DBB-2B52F2DDFC23}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Lab6.1/Models/Tweet.config">
+    <Files>
+      <File FileName="Lab6.1/Startup.cs" Line="53" Column="14" />
+      <File FileName="Lab6.1/Views/_ViewImports.cshtml" Line="1" Column="1" />
+      <File FileName="Lab6.1/Views/Home/Index.cshtml" Line="56" Column="1" />
+      <File FileName="Lab6.1/Controllers/HomeController.cs" Line="37" Column="13" />
+      <File FileName="Lab6.1/Models/Tweet.config" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Lab6.1 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

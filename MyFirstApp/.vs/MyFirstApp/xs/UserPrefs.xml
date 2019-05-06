@@ -1,0 +1,5 @@
+﻿<Properties StartupConfiguration="{49B11F6D-41D2-442B-BC8E-7405A2779B18}|">
+  <MonoDevelop.Ide.ItemProperties.MyFirstApp FirstBuild="True" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.MyFirstApp.Tests FirstBuild="True" />
+</Properties>
